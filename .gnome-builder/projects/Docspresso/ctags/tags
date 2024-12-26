@@ -1,0 +1,46 @@
+0	org.gnome.Docspresso.json	/^                {$/;"	o	array:modules.0.sources
+0	org.gnome.Docspresso.json	/^            "--share=network"$/;"	s	array:build-options.build-args
+0	org.gnome.Docspresso.json	/^        "--share=network",$/;"	s	array:finish-args
+0	org.gnome.Docspresso.json	/^        "\/include",$/;"	s	array:cleanup
+0	org.gnome.Docspresso.json	/^        "org.freedesktop.Sdk.Extension.rust-stable"$/;"	s	array:sdk-extensions
+0	org.gnome.Docspresso.json	/^        {$/;"	o	array:modules
+1	org.gnome.Docspresso.json	/^        "--share=ipc",$/;"	s	array:finish-args
+1	org.gnome.Docspresso.json	/^        "\/lib\/pkgconfig",$/;"	s	array:cleanup
+2	org.gnome.Docspresso.json	/^        "--socket=fallback-x11",$/;"	s	array:finish-args
+2	org.gnome.Docspresso.json	/^        "\/man",$/;"	s	array:cleanup
+3	org.gnome.Docspresso.json	/^        "--device=dri",$/;"	s	array:finish-args
+3	org.gnome.Docspresso.json	/^        "\/share\/doc",$/;"	s	array:cleanup
+4	org.gnome.Docspresso.json	/^        "--socket=wayland"$/;"	s	array:finish-args
+4	org.gnome.Docspresso.json	/^        "\/share\/gtk-doc",$/;"	s	array:cleanup
+5	org.gnome.Docspresso.json	/^        "\/share\/man",$/;"	s	array:cleanup
+6	org.gnome.Docspresso.json	/^        "\/share\/pkgconfig",$/;"	s	array:cleanup
+7	org.gnome.Docspresso.json	/^        "*.la",$/;"	s	array:cleanup
+8	org.gnome.Docspresso.json	/^        "*.a"$/;"	s	array:cleanup
+RUST_BACKTRACE	org.gnome.Docspresso.json	/^            "RUST_BACKTRACE" : "1",$/;"	s	object:build-options.env
+RUST_LOG	org.gnome.Docspresso.json	/^            "RUST_LOG" : "docspresso=debug"$/;"	s	object:build-options.env
+append-path	org.gnome.Docspresso.json	/^        "append-path" : "\/usr\/lib\/sdk\/rust-stable\/bin",$/;"	s	object:build-options
+build-args	org.gnome.Docspresso.json	/^        "build-args" : [$/;"	a	object:build-options
+build-options	org.gnome.Docspresso.json	/^    "build-options" : {$/;"	o
+builddir	org.gnome.Docspresso.json	/^            "builddir" : true,$/;"	b	object:modules.0
+buildsystem	org.gnome.Docspresso.json	/^            "buildsystem" : "meson",$/;"	s	object:modules.0
+cleanup	org.gnome.Docspresso.json	/^    "cleanup" : [$/;"	a
+command	org.gnome.Docspresso.json	/^    "command" : "docspresso",$/;"	s
+data	meson.build	/^subdir('data')$/;"	S
+docspresso	README.md	/^# docspresso$/;"	c
+docspresso	meson.build	/^project('docspresso', 'rust', $/;"	P
+env	org.gnome.Docspresso.json	/^        "env" : {$/;"	o	object:build-options
+finish-args	org.gnome.Docspresso.json	/^    "finish-args" : [$/;"	a
+gnome	meson.build	/^gnome = import('gnome')$/;"	V
+i18n	meson.build	/^i18n = import('i18n')$/;"	V
+id	org.gnome.Docspresso.json	/^    "id" : "org.gnome.Docspresso",$/;"	s
+modules	org.gnome.Docspresso.json	/^    "modules" : [$/;"	a
+name	org.gnome.Docspresso.json	/^            "name" : "docspresso",$/;"	s	object:modules.0
+po	meson.build	/^subdir('po')$/;"	S
+runtime	org.gnome.Docspresso.json	/^    "runtime" : "org.gnome.Platform",$/;"	s
+runtime-version	org.gnome.Docspresso.json	/^    "runtime-version" : "master",$/;"	s
+sdk	org.gnome.Docspresso.json	/^    "sdk" : "org.gnome.Sdk",$/;"	s
+sdk-extensions	org.gnome.Docspresso.json	/^    "sdk-extensions" : [$/;"	a
+sources	org.gnome.Docspresso.json	/^            "sources" : [$/;"	a	object:modules.0
+src	meson.build	/^subdir('src')$/;"	S
+type	org.gnome.Docspresso.json	/^                    "type" : "git",$/;"	s	object:modules.0.sources.0
+url	org.gnome.Docspresso.json	/^                    "url" : "file:\/\/\/home\/chaitanya\/Projects"$/;"	s	object:modules.0.sources.0

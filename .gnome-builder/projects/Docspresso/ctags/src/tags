@@ -1,0 +1,54 @@
+DocspressoApplication	application.rs	/^    impl ApplicationImpl for DocspressoApplication {$/;"	c	module:imp
+DocspressoApplication	application.rs	/^    impl GtkApplicationImpl for DocspressoApplication {}$/;"	c	module:imp
+DocspressoApplication	application.rs	/^    impl ObjectImpl for DocspressoApplication {$/;"	c	module:imp
+DocspressoApplication	application.rs	/^    impl ObjectSubclass for DocspressoApplication {$/;"	c	module:imp
+DocspressoApplication	application.rs	/^    pub struct DocspressoApplication {}$/;"	s	module:imp
+DocspressoApplication	application.rs	/^impl DocspressoApplication {$/;"	c
+DocspressoWindow	window.rs	/^    impl ApplicationWindowImpl for DocspressoWindow {}$/;"	c	module:imp
+DocspressoWindow	window.rs	/^    impl ObjectImpl for DocspressoWindow {}$/;"	c	module:imp
+DocspressoWindow	window.rs	/^    impl ObjectSubclass for DocspressoWindow {$/;"	c	module:imp
+DocspressoWindow	window.rs	/^    impl WidgetImpl for DocspressoWindow {}$/;"	c	module:imp
+DocspressoWindow	window.rs	/^    impl WindowImpl for DocspressoWindow {}$/;"	c	module:imp
+DocspressoWindow	window.rs	/^    pub struct DocspressoWindow {$/;"	s	module:imp
+DocspressoWindow	window.rs	/^impl DocspressoWindow {$/;"	c
+GETTEXT_PACKAGE	config.rs	/^pub static GETTEXT_PACKAGE: &str = "docspresso";$/;"	v
+GETTEXT_PACKAGE	config.rs.in	/^pub static GETTEXT_PACKAGE: &str = @GETTEXT_PACKAGE@;$/;"	v
+LOCALEDIR	config.rs	/^pub static LOCALEDIR: &str = "\/home\/chaitanya\/Projects\/.gnome-builder\/projects\/Docspresso\//;"	v
+LOCALEDIR	config.rs.in	/^pub static LOCALEDIR: &str = @LOCALEDIR@;$/;"	v
+NAME	application.rs	/^        const NAME: &'static str = "DocspressoApplication";$/;"	C	implementation:imp::DocspressoApplication
+NAME	window.rs	/^        const NAME: &'static str = "DocspressoWindow";$/;"	C	implementation:imp::DocspressoWindow
+PKGDATADIR	config.rs	/^pub static PKGDATADIR: &str = "\/home\/chaitanya\/Projects\/.gnome-builder\/projects\/Docspresso/;"	v
+PKGDATADIR	config.rs.in	/^pub static PKGDATADIR: &str = @PKGDATADIR@;$/;"	v
+ParentType	application.rs	/^        type ParentType = gtk::Application;$/;"	t	implementation:imp::DocspressoApplication
+ParentType	window.rs	/^        type ParentType = gtk::ApplicationWindow;$/;"	t	implementation:imp::DocspressoWindow
+Type	application.rs	/^        type Type = super::DocspressoApplication;$/;"	t	implementation:imp::DocspressoApplication
+Type	window.rs	/^        type Type = super::DocspressoWindow;$/;"	t	implementation:imp::DocspressoWindow
+VERSION	config.rs	/^pub static VERSION: &str = "0.1.0";$/;"	v
+VERSION	config.rs.in	/^pub static VERSION: &str = @VERSION@;$/;"	v
+activate	application.rs	/^        fn activate(&self) {$/;"	P	implementation:imp::DocspressoApplication
+application	main.rs	/^mod application;$/;"	n
+cargo-build	meson.build	/^cargo_build = custom_target($/;"	c
+cargo_bin	meson.build	/^cargo_bin  = find_program('cargo')$/;"	V
+cargo_build	meson.build	/^cargo_build = custom_target($/;"	V
+cargo_env	meson.build	/^cargo_env  = [ 'CARGO_HOME=' + meson.project_build_root()  \/ 'cargo-home' ]$/;"	V
+cargo_opt	meson.build	/^cargo_opt  = [ '--manifest-path', meson.project_source_root() \/ 'Cargo.toml' ]$/;"	V
+class_init	window.rs	/^        fn class_init(klass: &mut Self::Class) {$/;"	P	implementation:imp::DocspressoWindow
+conf	meson.build	/^conf = configuration_data()$/;"	V
+config	main.rs	/^mod config;$/;"	n
+constructed	application.rs	/^        fn constructed(&self) {$/;"	P	implementation:imp::DocspressoApplication
+gnome	meson.build	/^gnome = import('gnome')$/;"	V
+imp	application.rs	/^mod imp {$/;"	n
+imp	window.rs	/^mod imp {$/;"	n
+instance_init	window.rs	/^        fn instance_init(obj: &glib::subclass::InitializingObject<Self>) {$/;"	P	implementation:imp::DocspressoWindow
+label	window.rs	/^        pub label: TemplateChild<gtk::Label>,$/;"	m	struct:imp::DocspressoWindow
+main	main.rs	/^fn main() -> glib::ExitCode {$/;"	f
+new	application.rs	/^    pub fn new(application_id: &str, flags: &gio::ApplicationFlags) -> Self {$/;"	P	implementation:DocspressoApplication
+new	window.rs	/^    pub fn new<P: IsA<gtk::Application>>(application: &P) -> Self {$/;"	P	implementation:DocspressoWindow
+pkgdatadir	meson.build	/^pkgdatadir = get_option('prefix') \/ get_option('datadir') \/ meson.project_name()$/;"	V
+rust_target	meson.build	/^  rust_target = 'debug'$/;"	V
+rust_target	meson.build	/^  rust_target = 'release'$/;"	V
+setup_gactions	application.rs	/^    fn setup_gactions(&self) {$/;"	P	implementation:DocspressoApplication
+show_about	application.rs	/^    fn show_about(&self) {$/;"	P	implementation:DocspressoApplication
+str	application.rs	/^        const NAME: &'static str = "DocspressoApplication";$/;"	v	implementation:imp::DocspressoApplication
+str	window.rs	/^        const NAME: &'static str = "DocspressoWindow";$/;"	v	implementation:imp::DocspressoWindow
+window	main.rs	/^mod window;$/;"	n

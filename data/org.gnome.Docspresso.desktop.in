@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=docspresso
+Exec=docspresso
+Icon=org.gnome.Docspresso
+Terminal=false
+Type=Application
+Categories=Utility;
+Keywords=GTK;
+StartupNotify=true
+DBusActivatable=true

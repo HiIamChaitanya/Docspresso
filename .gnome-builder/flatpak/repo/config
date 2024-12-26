@@ -1,0 +1,29 @@
+[core]
+repo_version=1
+mode=bare-user-only
+min-free-space-size=500MB
+
+[remote "flathub"]
+url=https://dl.flathub.org/repo/
+xa.title=Flathub
+xa.filter=/home/chaitanya/Projects/.gnome-builder/flatpak/filter
+xa.comment=Central repository of Flatpak applications
+xa.description=Central repository of Flatpak applications
+xa.homepage=https://flathub.org/
+xa.icon=https://dl.flathub.org/repo/logo.svg
+
+[remote "flathub-beta"]
+url=https://dl.flathub.org/beta-repo/
+xa.title=Flathub Beta
+xa.filter=/home/chaitanya/Projects/.gnome-builder/flatpak/filter
+xa.comment=Beta builds of Flatpak applications
+xa.description=Beta builds of Flatpak applications
+xa.homepage=https://flathub.org/
+xa.icon=https://dl.flathub.org/repo/logo.svg
+
+[remote "gnome-nightly"]
+url=https://nightly.gnome.org/repo/
+xa.title=GNOME Nightly Builds Repository
+xa.filter=/home/chaitanya/Projects/.gnome-builder/flatpak/filter
+xa.description=The latest GNOME flatpak runtimes/apps directly from the gitlab CI. This is highly unstable stuff aimed at GNOME developers/designers to test 
+xa.homepage=https://gnome.org/

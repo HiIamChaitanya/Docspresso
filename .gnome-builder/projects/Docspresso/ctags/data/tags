@@ -1,0 +1,15 @@
+D-BUS Service	org.gnome.Docspresso.service.in	/^[D-BUS Service]$/;"	s
+Exec	org.gnome.Docspresso.service.in	/^Exec=@bindir@\/docspresso --gapplication-service$/;"	k	section:D-BUS Service
+Name	org.gnome.Docspresso.service.in	/^Name=org.gnome.Docspresso$/;"	k	section:D-BUS Service
+Validate appstream file	meson.build	/^test('Validate appstream file', appstreamcli,$/;"	t
+Validate desktop file	meson.build	/^  test('Validate desktop file', desktop_utils, args: [desktop_file])$/;"	t
+Validate schema file	meson.build	/^test('Validate schema file',$/;"	t
+appstream_file	meson.build	/^appstream_file = i18n.merge_file($/;"	V
+appstreamcli	meson.build	/^appstreamcli = find_program('appstreamcli', required: false, disabler: true)$/;"	V
+compile_schemas	meson.build	/^compile_schemas = find_program('glib-compile-schemas', required: false, disabler: true)$/;"	V
+desktop_file	meson.build	/^desktop_file = i18n.merge_file($/;"	V
+desktop_utils	meson.build	/^desktop_utils = find_program('desktop-file-validate', required: false)$/;"	V
+icons	meson.build	/^subdir('icons')$/;"	S
+org.gnome.Docspresso	org.gnome.Docspresso.gschema.xml	/^	<schema id="org.gnome.Docspresso" path="\/org\/gnome\/Docspresso\/">$/;"	i
+service_conf	meson.build	/^service_conf = configuration_data()$/;"	V
+tld.vendor	org.gnome.Docspresso.metainfo.xml.in	/^  <developer id="tld.vendor">$/;"	i

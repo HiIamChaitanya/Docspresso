@@ -1,0 +1,3 @@
+application_id	meson.build	/^application_id = 'org.gnome.Docspresso'$/;"	V
+scalable_dir	meson.build	/^scalable_dir = 'hicolor' \/ 'scalable' \/ 'apps'$/;"	V
+symbolic_dir	meson.build	/^symbolic_dir = 'hicolor' \/ 'symbolic' \/ 'apps'$/;"	V

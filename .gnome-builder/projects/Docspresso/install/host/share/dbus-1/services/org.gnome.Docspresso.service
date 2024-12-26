@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.gnome.Docspresso
+Exec=/home/chaitanya/Projects/.gnome-builder/projects/Docspresso/install/host/bin/docspresso --gapplication-service
