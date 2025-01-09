@@ -2,7 +2,7 @@
 
 This Project is currently under development. The content may be incomplete or subject to change.
 
-** update: switching from GTK to QT
+**update: switching from GTK to QT
 
 # 📄 Docspresso
 Docspresso is an innovative document management suite that combines powerful features with a sleek, modern interface. Built using Rust, it offers robust local file management and secure network operations, making it an excellent choice for users seeking an efficient and secure document handling solution.
