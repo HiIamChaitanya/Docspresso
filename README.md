@@ -35,5 +35,3 @@ Sorry, but anyway I'm trying to do just that with this project, which may or may
 
 ## not so advanced features:
 -  Ollama integration for PDF files and 🔍 Document scanning functionality
-
-### Experience the future of document management with Docspresso – where efficiency meets innovation!  (this is the tag line by AI Gemma1.5)
