@@ -1,0 +1,12 @@
+{
+  "name": "cxx-qt",
+  "link_name": "cxx-qt",
+  "qt_modules": [
+    "Core"
+  ],
+  "defines": [],
+  "initializers": [],
+  "exported_include_prefixes": [
+    "cxx-qt"
+  ]
+}

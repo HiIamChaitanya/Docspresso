@@ -1,0 +1,13 @@
+[package]
+name = "docspresso"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cxx-qt = "0.7" # Or latest version
+cxx = "1.0" # Ensure compatibility with cxx-qt
+log = "0.4"
+env_logger = "0.10"
+
+[build-dependencies]
+cxx-qt-build = "0.7" # Or latest version
